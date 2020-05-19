@@ -1,0 +1,58 @@
+body 
+{
+background-image: url(img/back.jpg); 
+margin-left: 15%;
+}
+[href*="https"] { 
+    background-color: green
+	text-decoration: underline; 
+   }
+a:hover[href*="https"] {
+		color: red;  
+}
+[href*="https"]::before 
+{
+	content: "\2192"
+}
+   
+INPUT:focus { 
+  color: green
+			}
+.sidenav 
+{
+    height: 100%;
+    width: 160px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #110; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+	font-family: fantasy;
+}
+
+.sidenav a 
+{
+[href$=".html"] { 
+    background: url(dw.jpg) no-repeat 0 2px; 
+    padding-left: 6px;
+   } 
+    padding-left: 6px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+.maint
+{
+	border:5px;
+	font-family: system-ui;
+}
